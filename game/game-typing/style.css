@@ -91,7 +91,7 @@ button:hover {
 
 .box-display {
     cursor: pointer;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     height: 17px;
     padding: 10px;
     background-color: #1f2840;
@@ -120,6 +120,17 @@ button:hover {
     display: flex;
     font-size: 10pt;
     align-items: center;
+}
+
+.premio {
+    align-items: center;
+    display: flex;
+    margin: 10px 0 5px 20px;
+    width: 250px;
+    gap: 20px;
+    padding: 0 10px;
+    border: 1px solid;
+    border-radius: 10px;
 }
 
 @keyframes scroll-left {
