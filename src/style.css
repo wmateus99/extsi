@@ -195,6 +195,15 @@ html {
     width: 150px;
     height: 150px;
 }
+.tf {
+    top: 130px;
+    width: 150px;
+    height: 150px;
+}
+.tf img {
+    border: 3px solid #8b3dff;
+}
+
 .at img {
     left: 220px;
 }
@@ -214,6 +223,18 @@ html {
     border-radius: 50%;
     border: 3px solid #8b3dff;
 }
+.ico {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+    position: relative;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+}
 
 .icon img {
     width: 40px;
@@ -221,5 +242,13 @@ html {
 }
 
 .icon:active {
+    scale: 1.01;
+}
+.ico img {
+    width: 40px;
+    height: 40px;
+}
+
+.ico:active {
     scale: 1.01;
 }

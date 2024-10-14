@@ -6,6 +6,7 @@ const clickableDivAxl = document.getElementById('auxiliares');
 
 const clickableDivGame = document.getElementById('idGame');
 const clickableDivAtividades = document.getElementById('idAtividades');
+const clickableDivTsiflix = document.getElementById('idTsiflix');
 
 
 // Adiciona um evento de clique à div
@@ -27,4 +28,7 @@ clickableDivGame.addEventListener('click', function() {
 });
 clickableDivAtividades.addEventListener('click', function() {
     window.location.href = './atividades/index.html';
+});
+clickableDivTsiflix.addEventListener('click', function() {
+    window.location.href = 'https://ead10.com.br/escolatsiinformatica/portal/access';
 });
