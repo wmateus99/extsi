@@ -28,8 +28,8 @@
                     <div class="box-box passo" id="jf">
                         <h2 style="text-align: center;">Jogo da Forca</h2>
                     </div>
-                    <div class="box-box fixacao" id="jd">
-                        <h2 style="text-align: center;">Em Breve</h2>
+                    <div class="box-box fixacao" id="pm">
+                        <h2 style="text-align: center;">Prática do Mouse</h2>
                     </div>
                 </div>
             </div>
@@ -41,6 +41,7 @@
     const clickableDivJm = document.getElementById('jm');
     const clickableDivJd = document.getElementById('jd');
     const clickableDivJf = document.getElementById('jf');
+    const clickableDivPm = document.getElementById('pm');
 
     clickableDivJm.addEventListener('click', function() {
     window.location.href = './game-memory/index.html';
@@ -50,6 +51,9 @@
 });
     clickableDivJf.addEventListener('click', function() {
     window.location.href = './game-forca/index.html';
+});
+    clickableDivPm.addEventListener('click', function() {
+    window.location.href = './game-mouse/index.html';
 });
 </script>
 </body>
