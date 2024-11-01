@@ -32,3 +32,10 @@ clickableDivAtividades.addEventListener('click', function() {
 clickableDivTsiflix.addEventListener('click', function() {
     window.location.href = 'https://ead10.com.br/escolatsiinformatica/portal/access';
 });
+
+
+
+VanillaTilt.init(document.querySelectorAll(".box-option"), {
+    max: 25,
+    speed: 400
+});
